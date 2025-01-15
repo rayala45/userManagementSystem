@@ -60,6 +60,7 @@
     <div class="container">
         <h1>Login</h1>
         <h1>${msg }</h1>
+        <a href="userRegister"><button type="submit" style="width:30%">register</button></a>
         <form action="login" method="post">
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="Enter your email" required>
@@ -68,6 +69,8 @@
             <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
             <button type="submit">Login</button>
+            <br>
+            
         </form>
     </div>
 </body>
